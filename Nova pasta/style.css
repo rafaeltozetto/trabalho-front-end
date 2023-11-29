@@ -1,23 +1,27 @@
-css
 body {
     font-family: Arial, sans-serif;
-    margin: 10px;
-    padding: 10px;
+   margin: 60px;
+   padding: 15px;
 }
 
-.menu {
-    background-color: #333;
+.titulo {
+    background-color: rgba(40, 111, 124, 0.631);
     padding: 15px;
-    text-align: left; /* Alinhamento à esquerda */
+    text-align: left 30px;
+    color: brown;
+    text-align: center;
+  
 }
 
-#toggleMenu {
-    margin-right: 10px; /* Margem à direita para separação */
+.texto1 {
+    margin-right: 50px; /* Margem à direita para separação */
+    text-align: left     200px;
+    margin: 70px;
 }
 
 #menuList {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     display: none;
 }
