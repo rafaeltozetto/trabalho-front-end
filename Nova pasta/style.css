@@ -1,0 +1,48 @@
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu {
+    background-color: #333;
+    padding: 15px;
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+#toggleMenu {
+    margin-right: 10px; /* Margem à direita para separação */
+}
+
+#menuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#menuList li {
+    margin-bottom: 10px;
+}
+
+#menuList a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#content {
+    padding: 20px;
+}
+
+@media (min-width: 600px) {
+    /* Estilos para telas maiores (responsivo) */
+    .menu {
+        display: none;
+    }
+
+    #content {
+        margin-left: 200px; /* Largura do menu vertical */
+    }
+}
