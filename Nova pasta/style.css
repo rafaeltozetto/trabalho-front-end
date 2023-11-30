@@ -19,25 +19,38 @@ body {
     margin: 70px;
 }
 
-#menuList {
+.botao3 {
     list-style-type: none;
     padding: 10px;
     margin: 0;
     display: none;
 }
 
-#menuList li {
+.botao2 {
     margin-bottom: 10px;
+    padding: 10px;
+    margin: 0;
+   
 }
 
-#menuList a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+.nome {
+    margin-left: 30px;
+    background-position: 10%;
 }
 
-#content {
-    padding: 20px;
+.cpf {
+    text-align: left;
+    background-position: 10%;
+}
+
+.endereço {
+margin-left: 10px;
+background-position: 10%;
+}
+
+.telefone {
+margin-left: 10px;
+background-position: 10%;
 }
 
 @media (min-width: 600px) {
